@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password toggle</title>
+    <title>Password</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="inputData">
-        <input type="password" id="password" placeholder="Password">
-        <img src="hideP.png" id="toggleIcon">
-    </div>
-    <script src="password.js"></script>
-</body> 
+<div class="container">
+<label for="password"></label>
+<input type="password" id="password" placeholder="Enter password">
+<label for="confirmPassword"></label>
+<input type="password" id="confirmPassword" placeholder="Confirm password">
+<img id="toggleIcon" src="hideP.png" alt="Toggle Password Visibility">
+<button id="storePassword">Store</button>
+
+<div id="passwordDisplay"></div>
+<div id="error-msg"></div>
+
+</div>
+<script src="password.js"></script>
+</body>
+
 </html>
+
+<!-- port - http://127.0.0.1:5500/todo%20list/assign/list/index.html -->
