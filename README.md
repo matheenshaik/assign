@@ -1,2 +1,2 @@
-# Password - store in local storage
+# Password - store on local storage
 
